@@ -1,0 +1,41 @@
+#private String userName;
+#private Boolean boss;
+#private Date birth;
+#private Integer age;
+#private Pet pet;
+#private String[] interests;
+#private List<String> animal;
+#private Map<String, Object> score;
+#private Set<Double> salarys;
+#private Map<String, List<Pet>> allPets;
+
+person:
+  userName: 韩小贱
+  boss: true
+  birth: 1989/03/20
+  age: 30
+  pet:
+    name: 毛小豆
+    weight: 10.99
+  interests:
+    - 抽烟
+    - 喝酒
+    - 烫头
+  animal: [小五毛, 小六毛]
+#  score: {english: 37,math: 99}
+  score:
+    english: 37
+    math: 99
+  salarys:
+    - 4000.00
+    - 8000.00
+  allPets:
+    sick:
+#      - {name: 阿猪,weight: 99.99}
+      - name: 阿猪
+        weight: 99.99
+      - name: 阿狗
+        weight: 88.88
+    health:
+      - {name: 虫虫,weight: 66.66}
+      - {name: 小屁豆,weight: 55.33}
